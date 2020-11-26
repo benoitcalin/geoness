@@ -54,16 +54,13 @@ export default function Team() {
               </div>
               <h3 className="mb-2">Marie-Julia GOUBOT</h3>
               <h4>Ingénieur diplômée INPL - ENSG</h4>
-              <h4>Fondatrice de GEONESS (2012)</h4>
-              <h4 className="mb-4">
-                Après 8 années de collaboration au sein d’un BE indépendant
-                spécialisé environnement et géotechnique
-              </h4>
+              <h4 className="mb-4">Fondatrice et gérante</h4>
+              <p className="mb-4">
+                Après 8 années de collaboration au sein d’un BE indépendant spécialisé en environnement et en géotechnique, Marie-Julia fonde en 2012 le bureau d’études GEONESS. Son expertise technique s’est développée autour d’une approche transversale et de terrain lui permettant d’accompagner entreprises et collectivités avec pragmatisme.
+              </p>
 
-              <p>Passions : sport, développement professionnel</p>
-              <p>Hobbies : découverte des territoires, décoration</p>
               <p>Atouts : sens du contact, vision prospective</p>
-              <p className="mb-4">Points forts : persévérance, ambition</p>
+              <p className="mb-4">Points forts : persévérance, engagement</p>
 
               <a
                 href="mailto:contact@geoness.net?subject=Message à Geoness depuis le site internet"
@@ -100,11 +97,10 @@ export default function Team() {
               </div>
               <h3 className="mb-2">Coralie TOUVENOT</h3>
               <h4>Ingénieur Environnement</h4>
-              <h4>Collaboratrice au sein de GEONESS depuis 2012</h4>
               <h4 className="mb-4">Spécialisation QSE</h4>
 
-              <p>Passions : pâtisserie, création</p>
-              <p>Hobbies : DIY, voyages</p>
+              <p className="mb-4">Ingénieur en environnement, Coralie intervient dans la réalisation des évaluations environnementales. Elle est également spécialisée en QSE et accompagne les entreprises  et les collectivités en tant qu’auditeur-conseil et pour la définition de leurs plans d’actions  dans un processus d’amélioration continue.</p>
+
               <p>Atouts : sens de l’écoute et de l’implication</p>
               <p className="mb-4">Points forts : rigueur, détermination</p>
             </div>

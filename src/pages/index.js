@@ -8,7 +8,7 @@ import Need from "../components/need"
 import Activities from "../components/activities"
 import Team from "../components/team"
 import Footer from "../components/footer"
-import Team2 from "../components/team2"
+// import Team2 from "../components/team2"
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Header />
       <Surbanner />
       <Banner />
-      <Team2 />
+      {/* <Team2 /> */}
       <Who />
       <Need />
       <Activities />
