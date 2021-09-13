@@ -40,7 +40,7 @@ export default function Who() {
             <h3>
               Bureau d'études
               <br />
-              Experts environnement, Réglementation, HSE
+              Experts Environnement, Réglementation, Transition énergétique
               <br />
               <em>Partenaire de la réussite de vos projets</em>
             </h3>

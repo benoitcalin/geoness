@@ -93,6 +93,7 @@ export default function Need() {
               </h3>
               <ul className="client-list">
                 <li>Industriels (industrie extractive, BTP)</li>
+                <li>Développeurs solaire-photovoltaïque</li>
                 <li>Collectivités</li>
                 <li>Bureaux d’études</li>
               </ul>

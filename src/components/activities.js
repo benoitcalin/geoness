@@ -57,13 +57,11 @@ export default function Activities() {
             <div className="col-md-4 col-12">
               <ul>
                 <li>ICPE Spécialiste industrie extractive</li>
-                <li>Audits et diagnostics</li>
-                <li>Management HSE</li>
-                <li>Dossiers réglementaires</li>
-                <li>Assistance maîtrise d’ouvrage</li>
-                <li>Stratégie foncière territoriale</li>
-                <li>Stratégie d’entreprise</li>
-                <li>ENR</li>
+                <li>Solaire, photovoltaïque</li>
+                <li>Communication, pédagogie de projets</li>
+                <li>Transition énergétique et environnementale</li>
+                <li>Prospection et stratégie foncière (carrière, solaire)</li>
+                <li>Urbanisme, planification</li>
               </ul>
             </div>
             <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
@@ -78,16 +76,12 @@ export default function Activities() {
             </div>
             <div className="col-md-4 col-12">
               <ul>
-                <li>Gestion des impacts environnementaux</li>
-                <li>Gestion des risques</li>
-                <li>Urbanisme, Plannification</li>
-                <li>Évaluations environnementales</li>
-                <li>Maîtrise d’oeuvre</li>
-                <li>Communication</li>
+                <li>Évaluation environnementale</li>
+                <li>Dossiers réglementaires</li>
+                <li>AMO</li>
                 <li>PCAET</li>
-                <li>
-                  Transition énergétique et environnementale des territoires
-                </li>
+                <li>Gestion des risques et impacts environnementaux</li>
+                <li>Management HSE, audits internes</li>
               </ul>
             </div>
           </div>
