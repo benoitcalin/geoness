@@ -5,15 +5,6 @@
   align-items: flex-end;
   background-position: center !important;
   // background: linear-gradient(270deg, rgba(0, 0, 0, 0.308) 100%, rgba(255, 255, 255, 0) 108.12%);
-  div {
-    color: white;
-    margin: 30px;
-    font-weight: 600;
-  }
-  p {
-    font-weight: 500;
-    text-align: right;
-  }
 }
 
 .surbanner {
@@ -33,6 +24,23 @@
     color: $brand-brown;
     line-height: 45px;
     font-weight: 600;
+  }
+}
+
+.slider-div {
+  position: relative;
+  .slider-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    color: white;
+    margin: 30px;
+    font-weight: 600;
+    p {
+      font-weight: 500;
+      text-align: right;
+    }
   }
 }
 
@@ -57,7 +65,7 @@
   .surbanner h1 {
     font-size: 14px;
   }
-  .slider-image h1 {
+  .slider-div h1 {
     text-align: left;
   }
 }
@@ -66,13 +74,13 @@
   .surbanner {
     display: none;
   }
-  .slider-image h1 {
+  .slider-div h1 {
     font-size: 26px;
   }
 }
 
 @media(max-width: 400px) {
-  .slider-image h1 {
+  .slider-div h1 {
     font-size: 21px;
   }
 }

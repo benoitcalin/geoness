@@ -14,7 +14,7 @@ export default function Banner() {
           node {
             childImageSharp {
               # Specify the image processing specifications right in the query.
-              fluid {
+              fluid(quality: 80) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -36,21 +36,23 @@ export default function Banner() {
   }
 
   return (
-    <Slider {...settings}>
-      {images.map(image => (
-        <BackgroundImage
-          key={image.node.childImageSharp.fluid}
-          fluid={image.node.childImageSharp.fluid}
-          className="slider-image"
-        >
-          <div>
-            <h1>“Faire de toute contrainte une opportunité”</h1>
-            <p>
-              <em>MJ Goubot</em>
-            </p>
-          </div>
-        </BackgroundImage>
-      ))}
-    </Slider>
+    <div className="slider-div">
+      <Slider {...settings}>
+        {images.map(image => (
+          <BackgroundImage
+            key={image.node.childImageSharp.fluid}
+            fluid={image.node.childImageSharp.fluid}
+            className="slider-image"
+          >
+          </BackgroundImage>
+        ))}
+      </Slider>
+      <div className="slider-text">
+        <h1>“Faire de toute contrainte une opportunité”</h1>
+        <p>
+          <em>MJ Goubot</em>
+        </p>
+      </div>
+    </div>
   )
 }
