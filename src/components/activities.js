@@ -76,7 +76,7 @@ export default function Activities() {
             </div>
             <div className="col-md-4 col-12">
               <ul>
-                <li>Évaluation environnementale</li>
+                <li>Évaluations environnementales</li>
                 <li>Dossiers réglementaires</li>
                 <li>AMO</li>
                 <li>PCAET</li>
@@ -121,10 +121,11 @@ export default function Activities() {
               </p>
               <p className="title mb-3">Etudes acoustiques</p>
               <p className="title mb-3">
-                Évaluations environnementales Urbanisme (Elaboration, révision,
-                modification de PLUi, PCAET)
+                Évaluations environnementales
               </p>
-              <p className="title mb-3">Consommation de surface agricole</p>
+              <p className="title mb-3">
+                Urbanisme (études d’impact de projets photovoltaïques)
+              </p>
             </div>
           </div>
 
