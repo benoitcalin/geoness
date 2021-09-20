@@ -121,10 +121,10 @@ export default function Activities() {
               </p>
               <p className="title mb-3">Etudes acoustiques</p>
               <p className="title mb-3">
-                Évaluations environnementales
+                Evaluations environnementales (projets, documents de planification)
               </p>
               <p className="title mb-3">
-                Urbanisme (études d’impact de projets photovoltaïques)
+                Etudes d’impact de projets photovoltaïques
               </p>
             </div>
           </div>
