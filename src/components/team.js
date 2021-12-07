@@ -13,7 +13,7 @@ export default function Team() {
           }
         }
       }
-      image2: file(relativePath: { eq: "images/coralie.jpg" }) {
+      image2: file(relativePath: { eq: "images/chantal.jpg" }) {
         childImageSharp {
           # Specify the image processing specifications right in the query.
           fluid(maxWidth: 400) {
@@ -88,21 +88,21 @@ export default function Team() {
             <div className="team-card-content col-xs-12 col-md-8 col-lg-9">
               <div className="btn-geoness-container btn-cv">
                 <a
-                  href="https://res.cloudinary.com/di2wcculd/image/upload/v1600344236/GEONESS/C_Touvenot_CV.pdf"
+                  href="https://res.cloudinary.com/di2wcculd/image/upload/v1638886489/GEONESS/C-RICOU-CV-GEONESS.pdf"
                   className="btn btn-geoness my-md-3"
                   target="_blank"
                 >
                   Parcours Pro
                 </a>
               </div>
-              <h3 className="mb-2">Coralie TOUVENOT</h3>
-              <h4>Ingénieur Environnement</h4>
-              <h4 className="mb-4">Spécialisation QSE</h4>
+              <h3 className="mb-2">Chantal RICOU</h3>
+              <h4>Chargée d’études environnement</h4>
+              <h4 className="mb-4">Géomaticienne</h4>
 
-              <p className="mb-4">Ingénieur en environnement, Coralie intervient dans la réalisation des évaluations environnementales. Elle est également spécialisée en QSE et accompagne les entreprises  et les collectivités en tant qu’auditeur-conseil et pour la définition de leurs plans d’actions  dans un processus d’amélioration continue.</p>
+              <p className="mb-4">Diplômée de l’Université d’Angers, maîtrise en géographie option environnement, Chantal est spécialisée dans la recherche et la représentation spatiale des données environnementales. Elle participe à la réalisation des évaluations environnementales. Formée en tant qu’auditeur-conseil, elle intervient sur le volet HSE pour l’analyse des conformités réglementaires des installations classées que nous suivons.</p>
 
-              <p>Atouts : sens de l’écoute et de l’implication</p>
-              <p className="mb-4">Points forts : rigueur, détermination</p>
+              <p>Atouts : sens de l’observation et de l’écoute</p>
+              <p className="mb-4">Points forts : consciencieuse et impliquée</p>
             </div>
           </div>
         </div>
